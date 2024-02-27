@@ -10,7 +10,7 @@ export const  App = () => {
     </div>
     <div className="card-body">
       <h5 className="card-title">Marking Management System-Demo</h5>
-      <p className="card-text">You an use this demo project for learning React + TypeScript</p>
+      <p className="card-text">You can use this demo project for learning React + TypeScript</p>
       <a href="#"className="btn btn-primary">Click and learn more on react</a>
     </div>
   </div>
