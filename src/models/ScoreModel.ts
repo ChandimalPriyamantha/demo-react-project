@@ -1,25 +1,28 @@
 class ScoreModel{
    
+    
+    studentID:string;
+    courseID:string;
+    year:string;
+    assignmentType:string;
+    assignmentScore:number;
+    level:string;
+    semester:string;
     id:number;
-    title:string;
-    author?:string;
-    description?:string;
-    copies?:number;
-    copiesAvailable?:number;
-    category?:string;
-    img?:string;
+   
+   
 
-    constructor(id: number, title: string, author: string, description: string, copies: number,
-       copiesAvailable:number, category:  string, img: string){
+    constructor(id: number,  studentID: string, courseID: string, year: string,  level: string,
+        semester: string, assignmentType:string, assignmentScor:number){
 
            this.id = id;
-           this.title = title;
-           this.author = author;
-           this.description = description;
-           this.copies = copies;
-           this.copiesAvailable = copiesAvailable;
-           this.category = category;
-           this.img = img;
+           this.studentID = studentID;
+           this.courseID = courseID;
+           this.year = year;
+           this.level = level;
+           this.semester = semester;
+           this.assignmentType = assignmentType;
+           this.assignmentScore = assignmentScor;
        }
 
 }
