@@ -9,9 +9,9 @@ export const  App = () => {
      Hi, People
     </div>
     <div className="card-body">
-      <h5 className="card-title">Special title treatment</h5>
-      <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#"className="btn btn-primary">Go somewhere</a>
+      <h5 className="card-title">Marking Management System-Demo</h5>
+      <p className="card-text">You an use this demo project for learning React + TypeScript</p>
+      <a href="#"className="btn btn-primary">Click and learn more on react</a>
     </div>
   </div>
   );
